@@ -135,7 +135,7 @@
 }
 
 .bet-button {
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   background-color: transparent;
@@ -180,6 +180,7 @@ background-repeat: no-repeat;
 
 .lots__card-list {
 display: flex;
+flex-wrap: wrap;
 list-style: none;
 gap: 25px;
 flex-grow: 1;
